@@ -7,7 +7,8 @@ This script is configurable for more additions.
 ## Installation
 
 To run this package from a linux based command line, ensure your aws cli tools are configured properly and run something along the lines of.
-```aws cloudformation create-stack
+```
+aws cloudformation create-stack
 --stack-name YOUR STACK NAME
 --template-body file://final.yml
 --parameters file://params.json
